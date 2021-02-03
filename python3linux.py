@@ -3,7 +3,7 @@ from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import os
+
 font_zh = FontProperties(
     fname="/home/zgb/ojy/simhei.ttf")  # 导入中文字体
 plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
